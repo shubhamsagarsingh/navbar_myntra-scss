@@ -1,11 +1,13 @@
 import { NavLink } from "react-router-dom"
 
 
+
+
 export const Navbar = () => {
     return(
         <div className='b-navbar o-flex o-gap4'>
             <div className='l-navbar__left o-flex-hsa'>
-                <h1 className='e-navbar__logo'>Navbar</h1>
+                <h1 className='e-navbar__logo'>Myntra</h1>
                 <ul className='e-navbar__list o-flex-hsa o-gap1 o-ul--reset'>
                     <li>MEN</li>
                     <li>WOMEN</li>
